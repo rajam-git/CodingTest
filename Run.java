@@ -23,9 +23,14 @@ public class Run {
 		coll.collectionFun();
 		
 		//Problem 4
-		Person pMatt_1 = new Person("Matt", (byte)36, "1678", "PHX", "AZ", (short)85085);
-		Person pMatt_2 = new Person("Matt", (byte)36, "1678", "PHX", "AZ", (short)85085);
+		Problem4_Person pMatt_1 = new Problem4_Person("Matt", (byte)36, "1678", "PHX", "AZ", (short)85085);
+		Problem4_Person pMatt_2 = new Problem4_Person("Matt", (byte)36, "1678", "PHX", "AZ", (short)85085);
 		Problem4_Match match = new Problem4_Match();
 		System.out.println("Match = " + match.doTheyMatch(pMatt_1, pMatt_2));
+
+		//Problem 5
+		Problem5_Maze maze = new Problem5_Maze();
+		maze.navigateTheMaze();
+
 	}
 }

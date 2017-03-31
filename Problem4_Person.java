@@ -1,7 +1,7 @@
 
-public class Person {
+public class Problem4_Person {
 	
-	public Person(String name, byte age, String address, String city,
+	public Problem4_Person(String name, byte age, String address, String city,
 			String state, short zip) {
 		super();
 		this.name = name;
